@@ -5,7 +5,7 @@ import { BsDribbble } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className="header__social">
+    <div className="header__socials">
       <a href="https://linkedin.com" target="_blank">
         <BsLinkedin />
       </a>
