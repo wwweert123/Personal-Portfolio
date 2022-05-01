@@ -6,6 +6,7 @@ import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
+    /* you can name the div according to the react component */
     <header>
       <div className="container header__container">
         <h5>Hello, I'm</h5>
