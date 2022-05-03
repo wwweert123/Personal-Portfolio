@@ -72,7 +72,6 @@ h1 {
 /*wrap almost all the components*/
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 /*h2 and h5 that are direct child of the section*/
