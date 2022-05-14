@@ -1,5 +1,7 @@
 .container.testimonials__container {
   width: 40%;
+  /*make the pagination outside of the article */
+  padding-bottom: 4rem;
 }
 
 .client__avatar {
@@ -10,6 +12,10 @@
   /* auto makes it center */
   margin: 0 auto 1rem;
   border: 0.5rem solid var(--color-primary-variant);
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
 }
 
 .testimonial {
