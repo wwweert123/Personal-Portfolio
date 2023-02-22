@@ -71,6 +71,16 @@
   color: var(--color-light);
 }
 
+.about__icons {
+  display: inline-block;
+  width: 90%;
+  transition: var(--transition);
+}
+
+.about__icons:hover {
+  width: 100%;
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {
   .about__container {

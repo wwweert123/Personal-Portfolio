@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/doge.png";
+import NUS from "../../assets/NUS.png";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineFolderOpen } from "react-icons/ai";
@@ -21,9 +22,18 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years working</small>
+              {/* <FiAward className="about__icon" /> */}
+              <div className="about__icons">
+                <a
+                  href="https://www.nus.edu.sg"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={NUS} alt="NUS" />
+                </a>
+              </div>
+              <h5>Education</h5>
+              <small>NUS Computer Engineering Year 1</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
