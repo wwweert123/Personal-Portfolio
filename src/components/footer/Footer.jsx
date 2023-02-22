@@ -16,25 +16,25 @@ const Footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Experience</a>
+          <a href="#experience">Skills</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#services">Internship Experience</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#">Testimonials</a>
-        </li>
+        </li> */}
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="footer__socials">
+      {/* <div className="footer__socials">
         <a href="https://facebook.com">
           <FaFacebookF />
         </a>
@@ -44,9 +44,17 @@ const Footer = () => {
         <a href="https://twitter.com">
           <IoLogoTwitter />
         </a>
-      </div>
+      </div> */}
 
       <div className="footer__copyright">
+        <p>
+          This website is made by following a{" "}
+          <a href="https://youtu.be/G-Cr00UYokU" target="_blank">
+            tutorial
+          </a>{" "}
+          on Youtube by EGATOR. It made me learn a lot about website building
+          with React!
+        </p>
         <small>&copy; Frederick. All rights reserved.</small>
       </div>
     </footer>

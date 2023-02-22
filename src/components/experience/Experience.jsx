@@ -1,6 +1,14 @@
 import React from "react";
 import "./experience.css";
 import { BiBadgeCheck } from "react-icons/bi";
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { IoLogoJavascript } from "react-icons/io";
+import { BsFillBootstrapFill } from "react-icons/bs";
+import { FaReact } from "react-icons/fa";
+import { SiCsharp } from "react-icons/si";
+import { SiCplusplus } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -13,42 +21,41 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <AiFillHtml5 size={42} className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <DiCss3 size={42} className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <IoLogoJavascript
+                size={42}
+                className="experience__details-icon"
+              />
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <BsFillBootstrapFill
+                size={42}
+                className="experience__details-icon"
+              />
               <div>
                 <h4>Bootstrap</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
-              <div>
-                <h4>TailWind</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <FaReact size={42} className="experience__details-icon" />
               <div>
                 <h4>React</h4>
                 <small className="text-light">Experienced</small>
@@ -62,35 +69,21 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <SiCsharp size={42} className="experience__details-icon" />
               <div>
-                <h4>Node JS</h4>
+                <h4>C#</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <SiCplusplus size={42} className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h4>C++/C</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BiBadgeCheck className="experience__details-icon" />
+              <FaPython size={42} className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Experienced</small>

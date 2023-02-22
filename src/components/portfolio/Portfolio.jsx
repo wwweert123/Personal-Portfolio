@@ -52,7 +52,7 @@ const data = [
 
 const Portfolio = () => {
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

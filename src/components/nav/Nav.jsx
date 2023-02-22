@@ -6,6 +6,7 @@ import { FiUser } from "react-icons/fi";
 import { BsBookmarks } from "react-icons/bs";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { RiHammerLine } from "react-icons/ri";
 import { useState } from "react";
 
 const Nav = () => {
@@ -39,6 +40,13 @@ const Nav = () => {
         className={activeNav === "#services" ? "active" : ""}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <RiHammerLine />
       </a>
       <a
         href="#contact"
