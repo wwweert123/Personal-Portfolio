@@ -73,12 +73,12 @@
 
 .about__icons {
   display: inline-block;
-  width: 90%;
+  width: 60%;
   transition: var(--transition);
 }
 
 .about__icons:hover {
-  width: 100%;
+  width: 80%;
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ======= */

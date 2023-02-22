@@ -5,6 +5,7 @@ import NUS from "../../assets/NUS.png";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineFolderOpen } from "react-icons/ai";
+import { AiFillHtml5 } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -33,24 +34,24 @@ const About = () => {
                 </a>
               </div>
               <h5>Education</h5>
-              <small>NUS Computer Engineering Year 1</small>
+              <small>NUS Computer Engineering</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Internships</h5>
+              <small>Ready to take on more internship roles!</small>
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <h5>Passionate</h5>
+              <small>Eager and Fast Learner!</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-            voluptas, assumenda voluptatem amet voluptates a. Dicta impedit
-            ullam perspiciatis eius est aperiam non nostrum. Modi nam alias enim
-            aliquid odit?
+            Hi, my name is Pua Cheng Xuan Frederick. I am currently a year 1
+            Computer Engineering Student. I enjoy playing with computer
+            components as well as computer software. I take pleasure in learning
+            new things and applying them to meaningful uses.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk
