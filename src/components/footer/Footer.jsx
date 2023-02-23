@@ -1,19 +1,19 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+// import { FaFacebookF } from "react-icons/fa";
+// import { FiInstagram } from "react-icons/fi";
+// import { IoLogoTwitter } from "react-icons/io";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="/#" className="footer__logo">
         Frederick Pua
       </a>
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/#">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -49,7 +49,11 @@ const Footer = () => {
       <div className="footer__copyright">
         <p>
           This website is made by following a{" "}
-          <a href="https://youtu.be/G-Cr00UYokU" target="_blank">
+          <a
+            href="https://youtu.be/G-Cr00UYokU"
+            target="_blank"
+            rel="noreferrer"
+          >
             tutorial
           </a>{" "}
           on Youtube by EGATOR. It made me learn a lot about website building

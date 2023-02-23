@@ -2,10 +2,9 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/doge.png";
 import NUS from "../../assets/NUS.png";
-import { FiAward } from "react-icons/fi";
+// import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { AiOutlineFolderOpen } from "react-icons/ai";
-import { AiFillHtml5 } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -16,7 +15,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Image" />
+            <img src={ME} alt="me" />
           </div>
         </div>
 
