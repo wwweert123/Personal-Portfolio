@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import { BiBadgeCheck } from "react-icons/bi";
+// import { BiBadgeCheck } from "react-icons/bi";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";

@@ -67,11 +67,21 @@ const Portfolio = () => {
               <h3>{title}</h3>
               {/* the _blank would open the link in a new tab*/}
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a
+                  href={github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
 
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>

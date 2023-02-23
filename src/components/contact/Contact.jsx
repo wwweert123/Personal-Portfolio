@@ -43,7 +43,11 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>puachengxuan.fp@gmail.com</h5>
-            <a href="mailto:puachengxuan.fp@gmail.com" target="_blank">
+            <a
+              href="mailto:puachengxuan.fp@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -51,7 +55,11 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Frederick Pua</h5>
-            <a href="https://m.me/pua.chengxuanfrederick" target="_blank">
+            <a
+              href="https://m.me/pua.chengxuanfrederick"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -63,6 +71,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=81191128"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
