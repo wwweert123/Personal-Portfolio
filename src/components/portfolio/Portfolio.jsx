@@ -4,6 +4,9 @@ import IMG1 from "../../assets/react-portfolio-1.jpg";
 import IMG2 from "../../assets/react-portfolio-2.jpg";
 import IMG3 from "../../assets/react-portfolio-3.jpg";
 import IMG4 from "../../assets/react-portfolio-4.jpg";
+import discordjs from "../../assets/discordjs.png";
+
+import WidgetBot from "@widgetbot/react-embed";
 
 const data = [
   {
@@ -55,8 +58,25 @@ const Portfolio = () => {
     <section className="portfolio" id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+      <div className="container widget__container">
+        <WidgetBot
+          className="widget"
+          server="905688171390591016"
+          channel="905688171390591020"
+        />
+        <article key={1} className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={discordjs} alt={"Project 1"} />
+          </div>
+          <h3>{"Discord Bot"}</h3>
+          {/* the _blank would open the link in a new tab*/}
+          <div className="portfolio__item-cta">
+            <p>Bustiming, causeway pictures and picture of the cute dogs!</p>
+          </div>
+        </article>
+      </div>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container hidden">
         {data.map(({ id, image, title, github, demo }) => {
           return (
             /* key is needed for the map */

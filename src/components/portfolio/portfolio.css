@@ -32,6 +32,18 @@
   margin-bottom: 1rem;
 }
 
+.widget__container {
+  padding: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  height: 700px;
+}
+
+.hidden {
+  display: none;
+}
+
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {
   .portfolio__container {
