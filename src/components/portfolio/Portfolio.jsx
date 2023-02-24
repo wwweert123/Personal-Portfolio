@@ -70,8 +70,9 @@ const Portfolio = () => {
           </div>
           <h3>{"Discord Bot"}</h3>
           {/* the _blank would open the link in a new tab*/}
-          <div className="portfolio__item-cta">
+          <div>
             <p>Bustiming, causeway pictures and picture of the cute dogs!</p>
+            <p>More features coming soon! Work in Progress!</p>
           </div>
         </article>
       </div>
