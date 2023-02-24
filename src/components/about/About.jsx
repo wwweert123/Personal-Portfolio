@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/doge.png";
+import ME from "../../assets/fred.png";
 import NUS from "../../assets/NUS.png";
 // import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
