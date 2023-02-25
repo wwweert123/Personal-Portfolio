@@ -24,7 +24,7 @@ const Experience = () => {
               <AiFillHtml5 size={42} className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -41,7 +41,7 @@ const Experience = () => {
               />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
@@ -51,14 +51,14 @@ const Experience = () => {
               />
               <div>
                 <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <FaReact size={42} className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
           </div>
@@ -72,7 +72,7 @@ const Experience = () => {
               <SiCsharp size={42} className="experience__details-icon" />
               <div>
                 <h4>C#</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
@@ -86,7 +86,7 @@ const Experience = () => {
               <FaPython size={42} className="experience__details-icon" />
               <div>
                 <h4>Python</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
