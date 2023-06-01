@@ -1,5 +1,4 @@
-import axios from "../../api/axios";
-const PERFORMANCE_URL = "/performance";
+const PERFORMANCE_URL = "http://localhost:3500/performance";
 
 const sendVisit = async (navigations) => {
     try {
