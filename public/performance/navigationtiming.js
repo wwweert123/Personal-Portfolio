@@ -1,4 +1,4 @@
-const PERFORMANCE_URL = "http://localhost:3500/performance";
+const PERFORMANCE_URL = "https://performancebackend.herokuapp.com/performance";
 
 const sendVisit = async (navigations) => {
     try {
