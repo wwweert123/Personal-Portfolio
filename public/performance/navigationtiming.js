@@ -20,6 +20,15 @@ const sendVisit = async (navigations) => {
     }
 };
 
-var navigations = window.performance.getEntriesByType("navigation")[0];
-console.log(navigations.toJSON());
-sendVisit(navigations);
+// var navigations = window.performance.getEntriesByType("navigation")[0];
+// console.log(navigations.toJSON());
+// sendVisit(navigations);
+
+const observer = new PerformanceObserver((list) => {
+    list.getEntries().forEach((entry) => {
+        sendVisit(entry);
+        console.log(`sendVisit executed`);
+    });
+});
+
+observer.observe({ type: "navigation", buffered: true });
